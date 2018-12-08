@@ -45,7 +45,7 @@ Flags:
 `
 
 var (
-	holder   = flag.String("c", "SenseAge LLC. ZhangT", "copyright holder")
+	holder   = flag.String("c", "SenseAge LLC.", "copyright holder")
 	license  = flag.String("l", "mit", "license type: apache, bsd, mit")
 	licensef = flag.String("f", "", "license file")
 	year     = flag.Int("y", time.Now().Year(), "year")
