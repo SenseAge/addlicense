@@ -8,13 +8,13 @@ to any file that already has one.
 
 ## install
 
-    go get -u github.com/yulincoder/addlicense
+    go get -u github.com/SenseAge/addlicense
 
 ## usage
 
     addlicense [flags] pattern [pattern ...]
     
-    -c copyright holder (default "SenseAge LLC. ZhangT")
+    -c copyright holder (default "SenseAge LLC.")
     -l license type: apache, bsd, mit (default "mit")
     -y year (default 2018)
 
